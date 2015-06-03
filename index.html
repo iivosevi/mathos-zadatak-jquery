@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/vader/jquery-ui.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>JQuery zadatak</title>
+</head>
+
+<body>
+<div class="container">
+	<table class="table table-hover table-bordered"> 
+		<thead>
+		<tr class="warning">
+			<th>Ime</th>
+			<th>Prezime</th>
+			<th>Akcije</th>
+		</tr>
+		</thead>
+		<tbody id="users">
+		
+		</tbody>
+	</table>
+	
+<table class="dodajkor"><td></td><td></td><td><button class="btn btn-info" id="addNew"> Add new user </button></td></table>
+
+<div id="dialog" title="Unos novog korisnika"> 
+<form>
+	<input type="hidden" name="user" value="3">
+	<div class="form-group">
+		<label for="ime">Ime</label>
+		<input type="text" class="form-control" id="ime" name="name" placeholder="Unesi ime">
+	</div>
+	<div class="form-group">
+		<label for="prezime">Prezime</label> 
+	    <input type="text" class="form-control" id="prezime" name="surname" placeholder="Unesi prezime"><br>
+	</div>
+</form>
+</div>
+
+
+<div id="dialog_izmjena" title="Izmjena podataka korisnika"> 
+<form>
+	<input type="hidden" name="user" value="3">
+	<div class="form-group">
+		<label for="ime">Ime</label>
+		<input type="text" class="form-control" id="ime_izmjena" name="name" placeholder="Unesi ime">
+	</div>
+	<div class="form-group">
+		<label for="prezime">Prezime</label> 
+	    <input type="text" class="form-control" id="prezime_izmjena" name="surname" placeholder="Unesi prezime"><br>
+	</div>
+</form>
+</div>
+
+</div>
+
+<script src="assets/js/jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+<script src="assets/js/script.js"></script>
+
+
+</body>
+</html>

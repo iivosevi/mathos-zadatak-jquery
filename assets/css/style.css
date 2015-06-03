@@ -1,0 +1,32 @@
+.container{
+	padding:30px;
+}
+
+#dialog{
+	display: none;
+	text-align: center;
+	}
+	
+.table,th{
+	text-align: center;
+	font-size:18px;
+	font-family:Trebuchet MS;
+}
+
+th{
+	font-size:25px;
+}
+
+td{
+	width:33%;
+	font-family:Trebuchet MS;
+}
+
+.btn{
+	border-radius:10px;
+}
+
+.dodajkor{
+	text-align: center;
+	width:100%;
+}
